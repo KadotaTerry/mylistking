@@ -81,7 +81,7 @@ a heart icon)"
 			(hint: don't change exisiting code, add new code)
 	best - don't hardcode in the class name, make it a variable.
 -BC 
-see above. KS
+
 #################################################*/	
 
 	
@@ -89,8 +89,10 @@ see above. KS
 #11* LAST ONE! This is another feature I didn't code yet!
 I know...I'm sorry. You are the best for helping. I will
 buy you coffee for a month! 
+
 FEATURE: "A list user wants to prevent duplicate items from
 being added to the list so they don't buy them twice." 
+
 	okay - add comments to lay out your logic to solve this. 
 	better - add in at least SOME of the code to execute your plan
 	best - get it working! let the user know it was already on the list
@@ -99,7 +101,6 @@ being added to the list so they don't buy them twice."
 		but with different capitalization. Don't let them add "honey" "Honey"
 		"HONEY" (treat those as all the same)
 -BC 
-I typed out the psuedocode in comments because everything I tried broke. KS
 #################################################*/		
 	
 	
@@ -136,3 +137,4 @@ I typed out the psuedocode in comments because everything I tried broke. KS
     } // End of else option
   }); // End of event handler
 });
+
