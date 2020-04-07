@@ -26,6 +26,8 @@ background-color: #403c3b;
 /*#################################################
 #6 And now my icon is gone! It works when I'm cxt
 to the Inet! - BC
+
+changed the image path
 #################################################*/
 h1 {
 	background-image: url(../images/kinglogo.png);
@@ -44,7 +46,7 @@ h1 {
 Can you run through and see if there are any other 
 images that also need your attention? - BC 
 
-HAVENT DONE THIS ONE YET!!
+changed the path for .complete and .favorite
 #################################################*/
 
 
@@ -86,6 +88,8 @@ ul {
 	better - can you do it in js or jQuery? 
 - BC
 (done? now check on all my script, #9 is there)
+
+threw the ol text transformer in there and got that bad boy to give you lowercase ;)
 #################################################*/
 
 li {
