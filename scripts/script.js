@@ -54,7 +54,9 @@ added class favorite. I know this needs a for loop of some sort.
     // When a new item is submitted
     e.preventDefault(); // Prevent form being submitted
 		var text = $("input:text").val(); // Get value of text input	
-	
+	//for loop
+	//use this loop to see if the word they entereed is the same as another on they entered
+	// deny them from entering the same item twice and warn them that they already have that item on their list
 		$list.append("<li class='favorite'>" + text + "</li>"); // Add item to end of the list
 		$("input:text").val(""); // Empty the text input
 		updateCount(); // Update the count
@@ -87,7 +89,7 @@ buy you coffee for a month!
 FEATURE: "A list user wants to prevent duplicate items from
 being added to the list so they don't buy them twice." 
 
-	okay - add comments to lay out your logic to solve this. 
+	okay - add comments to lay out your logic to solve this. // I DID THIS ONE  
 	better - add in at least SOME of the code to execute your plan
 	best - get it working! let the user know it was already on the list
 	super - don't let the user add an empty list item (return keyword?)
