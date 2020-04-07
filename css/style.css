@@ -362,6 +362,10 @@ li i {
   color: #fff;
 }
 
+.footer {
+  color: white;
+}
+
 /* Small screen:mobile */
 @media only screen and (max-width: 500px) {
   body {
