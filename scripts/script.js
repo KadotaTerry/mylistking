@@ -1,3 +1,14 @@
+
+// <!--##############################################
+// #4 I think I'm having trouble debugging my script
+// because this HTML file doesn't color code anything 
+// for me to help me figure out my errors! How can I
+// fix this. (Also this HTML code is so long, I'd  love to 
+// make it simpler by moving this code somewhere else!) -BC
+																				 
+// (hey, after this, the next one, #5 is in my stylesheet)
+// ###############################################-->
+
 $(function() {
   // SETUP
   var $list, $newItemForm, $newItemButton;
