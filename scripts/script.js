@@ -46,21 +46,15 @@ $(function() {
 /*#################################################
 #9 	My list count wont UPDATE when I add a new item! 
 It works when I delete an item! -BC 
+
+added class favorite. I know this needs a for loop of some sort.
 #################################################*/
   // ADDING A NEW LIST ITEM
   $newItemForm.on("submit", function(e) {
     // When a new item is submitted
     e.preventDefault(); // Prevent form being submitted
 		var text = $("input:text").val(); // Get value of text input	
-		
-		/**
-		1. take the words in the list already and create a for loop with the list length
-		2. test if each word is equivalent to the one entered (in lowercase)
-		3. if there is a match, give an alert that duplicate items cannot be added
-		**bonus. check if the item is blank and if it is, cannot be added 
-		4. if there is not a match, add the item to the list and increase the counter
-		*/
-		
+	
 		$list.append("<li class='favorite'>" + text + "</li>"); // Add item to end of the list
 		$("input:text").val(""); // Empty the text input
 		updateCount(); // Update the count
@@ -81,7 +75,7 @@ a heart icon)"
 			(hint: don't change exisiting code, add new code)
 	best - don't hardcode in the class name, make it a variable.
 -BC 
-
+tried my little heart out. need help
 #################################################*/	
 
 	
