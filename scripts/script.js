@@ -47,7 +47,7 @@ $(function() {
 #9 	My list count wont UPDATE when I add a new item! 
 It works when I delete an item! -BC 
 
-added class favorite. I know this needs a for loop of some sort.
+added "class favorite". I know this needs a loop
 #################################################*/
   // ADDING A NEW LIST ITEM
   $newItemForm.on("submit", function(e) {
